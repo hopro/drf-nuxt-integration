@@ -1,0 +1,15 @@
+[Unit]
+Description=Django Backend Service
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/path/to/your/site/backend
+ExecStart=/path/to/your/site/backend/venv/bin/gunicorn --workers 3 --bind 0.0.0.0:8000 backend.wsgi:application
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target 

@@ -1,0 +1,1 @@
+const o=({error:u,fieldErrors:n})=>({handleApiErrors:a=>{if(u.value="",n.value={},!a){u.value="Произошла неизвестная ошибка";return}Object.entries(a).forEach(([t,r])=>{t==="non_field_errors"||t==="detail"?u.value=Array.isArray(r)?r.join(". "):r:n.value[t]=Array.isArray(r)?r:[r]})},resetErrors:()=>{u.value="",n.value={}}});export{o as u};

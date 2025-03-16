@@ -1,0 +1,12 @@
+[Unit]
+Description=Django Application
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/root/site/backend
+ExecStart=/root/site/backend/myenv/bin/gunicorn --workers 3 --bind unix:/root/site/backend/mysite/django.sock mysite.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

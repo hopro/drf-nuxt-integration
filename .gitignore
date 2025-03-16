@@ -1,0 +1,109 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.env
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+.cache/
+*.tgz
+
+# Nuxt.js
+.nuxt/
+dist/
+*.local
+*.log
+*.env
+*.swp
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Offline packages
+offline_packages/
+
+# Nuxt.js cache
+frontend/node_modules.zip
+frontend/npm_cache/
+
+# Django logs
+backend/logs/
+
+# Nuxt.js logs
+frontend/logs/
+
+# NSSM logs
+scripts/windows/nssm.log
+scripts/windows/nssm.exe
+backend/avatars/1232.png
+backend/gp4_analitika/migrations/__init__.py
+backend/gp4_analitika/migrations/0001_initial.py
+backend/gp4_analitika/migrations/0002_alter_patient_mo_prikrepl_alter_patient_address_and_more.py
+backend/gp4_analitika/migrations/0003_patient_category.py
+backend/gp4_analitika/migrations/0004_uchastki_alter_patient_ychastok.py
+backend/gp4_analitika/migrations/0005_alter_uchastki_update_date.py
+backend/gp4_analitika/migrations/0006_alter_patient_ychastok.py
+backend/gp4_analitika/migrations/0007_alter_patient_category.py
+backend/gp4_analitika/migrations/0008_alter_patient_category.py
+backend/gp4_analitika/migrations/0009_alter_patient_category.py
+backend/gp4_analitika/migrations/0010_fieldmetadata_alter_patient_mo_prikrepl_and_more.py
+backend/blog/migrations/__init__.py
+backend/blog/migrations/0001_initial.py

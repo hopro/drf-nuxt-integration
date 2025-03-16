@@ -1,0 +1,14 @@
+[Unit]
+Description=Nuxt.js Frontend Service
+After=network.target django.service
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/path/to/your/site/frontend
+ExecStart=/usr/bin/npm run start
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target 
