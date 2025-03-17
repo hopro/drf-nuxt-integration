@@ -15,10 +15,10 @@
 
 ## Требования
 
-- Python 3.8+
-- Node.js 16+
+- Python 3.10+
+- Node.js 18+
 - Django 4.2+
-- Nuxt 3
+- NPM 10+
 
 ## Назначение
 
@@ -262,7 +262,7 @@ Gunicorn используется для запуска Django-приложен�
 
    ```bash
    curl http://localhost:8000/api/schema/
-   http://localhost:8000/admin/
+   http://localhost:8000/api/admin/
    ```
 
 2. Frontend
